@@ -1,0 +1,114 @@
+@import url('https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css');
+
+.background-decoration {
+    position: absolute;
+    width: 16rem;
+    height: 16rem;
+    border-radius: 9999px;
+    mix-blend-mode: multiply;
+    filter: blur(64px);
+    opacity: 0.7;
+}
+
+.background-decoration:nth-child(1) {
+    top: 25%;
+    left: 25%;
+    background-color: rgba(219, 234, 254, 1);
+}
+
+.background-decoration:nth-child(2) {
+    top: 75%;
+    right: 25%;
+    background-color: rgba(233, 213, 255, 1);
+}
+
+.project-card {
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    background-color: black;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.project-card:hover h2 {
+    color: white;
+}
+
+.project-card:hover p {
+    color: #d1d5db;
+}
+
+.project-image {
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-image {
+    transform: scale(1.1);
+}
+
+#modal.hidden {
+    display: none;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.backdrop-blur-sm {
+    backdrop-filter: blur(4px);
+}
+
+.modal-content {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.modal-content.show {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.project-link {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.project-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.project-link:hover::before {
+    opacity: 1;
+}
+
+.project-link:hover img {
+    filter: blur(4px) brightness(0.4);
+}
+
+.project-link .view-project {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.project-link:hover .view-project {
+    opacity: 1;
+}
