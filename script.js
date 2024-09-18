@@ -125,6 +125,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+            closeModal();
+        }
+    });
+
     renderProjects();
     lucide.createIcons();
 
@@ -135,9 +141,9 @@ document.addEventListener('DOMContentLoaded', () => {
             targets: el,
             translateX: () => anime.random(-15, 15),
             translateY: () => anime.random(-15, 15),
-            scale: [1, 1.1, 1],
+            scale: [1, 1.1, 1.2, 1.3, 1.2, 1.1, 1],
             easing: 'easeInOutQuad',
-            duration: 4000 + i * 1000,
+            duration: 8000 + i * 1000,
             loop: true
         });
     });
