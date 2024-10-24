@@ -22,6 +22,22 @@ const projects = [
         objectives: "Knowing which ad perform more effective",
         tools: "Jupyter Lab, Python (Pandas)",
         link: "https://drive.google.com/file/d/1Wmm645C-aTFm29e0Nnidgc3V9h8NFwxl/view?usp=sharing",
+    },
+    {
+        title: "Dog Breed Classification",
+        description: "AI Model in image classification by finetuning Google ViT Base for dog breed classification. This model is trained using 70 Dog Breeds-Image Dataset from Kaggle.",
+        image: "asset/thumbnail/dog-classifier-thumbnail.png",
+        objectives: "Classify 70 Dog Breeds by Image",
+        tools: "Python, Transformers, PyTorch, Huggingface, Gradio, Pandas",
+        link: "https://huggingface.co/spaces/raffaelsiregar/dog-breeds-classifier",
+    },
+    {
+        title: "Speech Emotion Recognition",
+        description: "AI Model in audio classification by designing CNN Architecture combined with LSTM Architecture to classify speech emotion. This model is trained using Toronto Emotion Speech Set, reached 0.97 accuracy score.",
+        image: "asset/thumbnail/audio-classification-thumbnail.png",
+        objectives: "Classify 6 Speech emotions (Angry, Sad, Happy, Fear, Disgusting, and Neutral)",
+        tools: "Python, PyTorch, Gradio, Librosa",
+        link: "https://huggingface.co/spaces/raffaelsiregar/speech-emotion-recognition",
     }
 ];
 
