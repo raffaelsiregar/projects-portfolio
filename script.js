@@ -38,6 +38,14 @@ const projects = [
         objectives: "Classify 6 Speech emotions (Angry, Sad, Happy, Fear, Disgusting, and Neutral)",
         tools: "Python, PyTorch, Gradio, Librosa",
         link: "https://huggingface.co/spaces/raffaelsiregar/speech-emotion-recognition",
+    },
+    {
+        title: "TheLook E-Commerce",
+        description: "Define problems and analyze TheLook E-Commerce data based on the existing case. This project is a part of advanced assignment in RevoU Full-Stack Data Analytics course",
+        image: "asset/thumbnail/TheLook.jpg",
+        objectives: "Gain several insights and actions recommendation based on insights",
+        tools: "SQL, BigQuery",
+        link: "https://drive.google.com/file/d/1z6aFdnPGAS-4m6Y0A67t40N6ndFwWCR6/view?usp=drive_link"
     }
 ];
 
