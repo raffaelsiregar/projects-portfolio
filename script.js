@@ -38,6 +38,7 @@ const projects = [
         objectives: "Classify 6 Speech emotions (Angry, Sad, Happy, Fear, Disgusting, and Neutral)",
         tools: "Python, PyTorch, Gradio, Librosa",
         link: "https://huggingface.co/spaces/raffaelsiregar/speech-emotion-recognition",
+
     },
     {
         title: "TheLook E-Commerce",
