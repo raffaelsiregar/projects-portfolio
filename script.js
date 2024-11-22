@@ -47,6 +47,14 @@ const projects = [
         objectives: "Gain several insights and actions recommendation based on insights",
         tools: "SQL, BigQuery",
         link: "https://drive.google.com/file/d/1z6aFdnPGAS-4m6Y0A67t40N6ndFwWCR6/view?usp=drive_link"
+    },
+    {
+        title: "Demographic Data Analyzer",
+        description: "In this project, a dataset was extracted from Census 1994. In order to give a picture of this data, some exploratory analysis will be provided.",
+        image: "asset/thumbnail/demographic-data-analyzer.jpg",
+        objectives: "answer a few analytical questions and gain several insights",
+        tools: "Python, Pandas",
+        link: "https://drive.google.com/file/d/1WnRplq54jQYiJH-WZ6tgM6jLxYtIbsU1/view?usp=drive_link"
     }
 ];
 
