@@ -55,6 +55,30 @@ const projects = [
         objectives: "answer a few analytical questions and gain several insights",
         tools: "Python, Pandas",
         link: "https://drive.google.com/file/d/1WnRplq54jQYiJH-WZ6tgM6jLxYtIbsU1/view?usp=drive_link"
+    },
+    {
+        title: "Sephora Products Performance Analytics",
+        description: "This project is part of RevoU Full-Stack Data Analytics course and become the final project of the course. DEEPP stands for Data End-to-End Project Portfolio. Using dataset from Kaggle, this dataset contains 8000+ products",
+        image: "asset/thumbnail/sephora.jpeg",
+        objectives: "Improve Sephora's products rating from 4.2 to 4.6",
+        tools: "Python (Google Colab), Tableau",
+        link: "https://drive.google.com/file/d/1pq7CwJ4qvvh5V956cy5ZKFZxTdGKCaPA/view?usp=sharing"
+    },
+    {
+        title: "WishfulBazaar Dashboard",
+        description: "This project is focused on WishfulBazaar sales performance. As part of RevoU Full-Stack Data Analytics project, this dataset is given to visualize WishfullBazaar sales performance",
+        image: "asset/thumbnail/wishfulbazaar.jpeg",
+        objectives: "Give a wide insights and Sales performance overview to Board of Directors",
+        tools: "Tableau",
+        link: "https://public.tableau.com/views/WishfulBazaarDashboard_17385882370170/WishfullbazaarSalesPerformance?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+    },
+    {
+        title: "RevoBank Sales Performance",
+        description: "This project is part of RevoU Full-Stakc Data Analytics course. RevoBank is a Europe-based bank and needed to be analyzed their sales performance in the last 3 years",
+        image: "asset/thumbnail/revobank.jpg",
+        objectives: "Analyze 3 years sales performance and create customer segmentation",
+        tools: "Python (Google Colab)",
+        link: "https://drive.google.com/file/d/1toF_yXEGNhjg8cYnQt94ywDMYLRyGjuQ/view?usp=sharing"
     }
 ];
 
