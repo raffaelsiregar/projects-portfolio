@@ -74,11 +74,19 @@ const projects = [
     },
     {
         title: "RevoBank Sales Performance",
-        description: "This project is part of RevoU Full-Stakc Data Analytics course. RevoBank is a Europe-based bank and needed to be analyzed their sales performance in the last 3 years",
+        description: "This project is part of RevoU Full-Stack Data Analytics course. RevoBank is a Europe-based bank and needed to be analyzed their sales performance in the last 3 years",
         image: "asset/thumbnail/revobank.jpg",
         objectives: "Analyze 3 years sales performance and create customer segmentation",
         tools: "Python (Google Colab)",
         link: "https://drive.google.com/file/d/1toF_yXEGNhjg8cYnQt94ywDMYLRyGjuQ/view?usp=sharing"
+    },
+    {
+        title: "Car Claim Insurance Model",
+        description: "This insurance claim model is designed to predict whether the policyholder will file a claim in the next 6 months or not. Using a Machine Learning library this model process policyholder’s data and their car data.",
+        image: "asset/thumbnail/car_insurance.jpg",
+        objectives: "Help car insurance company to deal with the next 6 months claim probability",
+        tools: "VS Code (Jupyter Notebook), Python",
+        link: "asset/appendix/car_insurance.html"
     }
 ];
 
