@@ -5,7 +5,7 @@ const projects = [
         image: "asset/thumbnail/revou-project.jpg",
         objectives: "To make strategic decisions and identifying opportunities for growth and improvement.",
         tools: "Jupyter Lab, Python (Pandas)",
-        link: "https://drive.google.com/file/d/1NSxfYSr1AV-fo5Zk8Po3QQenm44r3RpT/view?usp=sharing",
+        link: "appendix/sales-eda-project.pdf"
     },
     {
         title: "FIFA21 Players Analysis",
@@ -13,7 +13,7 @@ const projects = [
         image: "asset/thumbnail/fifa21-project.jpg",
         objectives: "To clean FIFA21 Dataset and prepare to be used in Machine Learning project",
         tools: "Jupyter Lab, Python (Pandas)",
-        link: "https://drive.google.com/file/d/1yIFEdLV8wWJT34Q-kwFk-X9qgynH-pxb/view?usp=sharing",
+        link: "appendix/fifa21-project.pdf"
     },
     {
         title: "Compare Ad Effectiveness",
@@ -21,7 +21,7 @@ const projects = [
         image: "asset/thumbnail/ad-project-thumbnail.png",
         objectives: "Knowing which ad perform more effective",
         tools: "Jupyter Lab, Python (Pandas)",
-        link: "https://drive.google.com/file/d/1Wmm645C-aTFm29e0Nnidgc3V9h8NFwxl/view?usp=sharing",
+        link: "appendix/ab-test-project.pdf"
     },
     {
         title: "Dog Breed Classification",
@@ -46,7 +46,7 @@ const projects = [
         image: "asset/thumbnail/TheLook.jpg",
         objectives: "Gain several insights and actions recommendation based on insights",
         tools: "SQL, BigQuery",
-        link: "https://drive.google.com/file/d/1z6aFdnPGAS-4m6Y0A67t40N6ndFwWCR6/view?usp=drive_link"
+        link: "appendix/thelook-ecommerce-project.pdf"
     },
     {
         title: "Demographic Data Analyzer",
@@ -54,7 +54,7 @@ const projects = [
         image: "asset/thumbnail/demographic-data-analyzer.jpg",
         objectives: "answer a few analytical questions and gain several insights",
         tools: "Python, Pandas",
-        link: "https://drive.google.com/file/d/1WnRplq54jQYiJH-WZ6tgM6jLxYtIbsU1/view?usp=drive_link"
+        link: "appendix/demographic-data-analyzer.pdf"
     },
     {
         title: "Sephora Products Performance Analytics",
@@ -62,11 +62,11 @@ const projects = [
         image: "asset/thumbnail/sephora.jpeg",
         objectives: "Improve Sephora's products rating from 4.2 to 4.6",
         tools: "Python (Google Colab), Tableau",
-        link: "https://drive.google.com/file/d/1pq7CwJ4qvvh5V956cy5ZKFZxTdGKCaPA/view?usp=sharing"
+        link: "appendix/deepp-final-project.pdf"
     },
     {
         title: "WishfulBazaar Dashboard",
-        description: "This project is focused on WishfulBazaar sales performance. As part of RevoU Full-Stack Data Analytics project, this dataset is given to visualize WishfullBazaar sales performance",
+        description: "This project is focused on WishfulBazaar sales performance. As part of RevoU Full-Stack Data Analytics project, this dataset is given to visualize WishfulBazaar sales performance",
         image: "asset/thumbnail/wishfulbazaar.jpeg",
         objectives: "Give a wide insights and Sales performance overview to Board of Directors",
         tools: "Tableau",
@@ -78,7 +78,7 @@ const projects = [
         image: "asset/thumbnail/revobank.jpg",
         objectives: "Analyze 3 years sales performance and create customer segmentation",
         tools: "Python (Google Colab)",
-        link: "https://drive.google.com/file/d/1toF_yXEGNhjg8cYnQt94ywDMYLRyGjuQ/view?usp=sharing"
+        link: "appendix/revobank-cust-segmentation.pdf"
     },
     {
         title: "Car Claim Insurance Model",
@@ -86,7 +86,7 @@ const projects = [
         image: "asset/thumbnail/car_insurance.jpg",
         objectives: "Help car insurance company to deal with the next 6 months claim probability",
         tools: "VS Code (Jupyter Notebook), Python",
-        link: "asset/appendix/car_insurance.html"
+        link: "appendix/car_insurance.html"
     }
 ];
 
